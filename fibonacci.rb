@@ -1,11 +1,11 @@
 def fibonacci?(i)
-  n1 = Math.sqrt((5*(i**2)+4))
-  n2 = Math.sqrt((5*(i**2)-4))
-  if n1 == n1.round || n2 == n2.round
-    return true
-  else 
-    return false
-  end
+	n1 = Math.sqrt((5*(i**2)+4))
+	n2 = Math.sqrt((5*(i**2)-4))
+	if n1 == n1.round || n2 == n2.round
+		return true
+	else 
+		return false
+	end
 end
 
 @array = Array.new(500) { rand(1...100) }
